@@ -13,7 +13,7 @@ When opening the note-taking applicatio the user is presented with a landing pag
 ![App Screenshot](./Develop/public/assets/Note-Taker.png)
 
 ## Links
-
+(https://parkercf.github.io/Note-Taker)
 
 
 ## Features
