@@ -44,7 +44,6 @@ class Store {
         .then(() => newNote);
     }
 
-    //remove note optional
 }
 
 module.exports = newStore();
