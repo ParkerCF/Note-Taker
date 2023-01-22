@@ -1,7 +1,6 @@
 const util = require('util');
 const fs = require('fs');
 
-const uuidv1 = require ('uuid/v1');
 const { parse } = require('path');
 
 const readFileAsync = util.promisify(fs.readFile);
@@ -36,7 +35,7 @@ class Store {
             throw new Error('Please enter title and text')
         }
 
-        const newNote = {title, text, id: uuidv1()};
+        const newNote = {title, text};
 
         return this.getNotes()
         .then((notes) => [...notes, newNote])
@@ -46,4 +45,4 @@ class Store {
 
 }
 
-module.exports = newStore();
+module.exports = new Store();
