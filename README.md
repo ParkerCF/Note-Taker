@@ -10,11 +10,11 @@ When opening the note-taking applicatio the user is presented with a landing pag
 
 ## Screenshots
 
-![App Screenshot](./Develop/public/assets/Note-Taker.png)
+![App Screenshot](./public/assets/Note-Taker.png)
 
 ## Links
 (https://parkercf.github.io/Note-Taker)
-
+(https://note-taker-proj.herokuapp.com/)
 
 ## Features
 
